@@ -1,6 +1,8 @@
 import Header from './components/Header';
 import StudentForm from './components/StudentForm';
 import StudentList from './components/StudentList';
+import CountReducer from './CountReducer'
+import TodoReducer from './TodoReducer'
 import './App.css'
 function App(){
   return(
@@ -8,6 +10,8 @@ function App(){
       <Header/>
       <StudentForm/>
       <StudentList/>
+      <CountReducer/>
+      <TodoReducer/>
     </div>
   )
 }
